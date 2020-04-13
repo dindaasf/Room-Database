@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">RoomDatabase</string>
-    <string name="hint_word">Kata...</string>
+    <string name="hint_word">Masukkan Nama</string>
+    <string name="hint_tgl">Masukkan Tanggal Lahir</string>
     <string name="button_save">Simpan</string>
     <string name="empty_not_saved">Kata tidak dapat disimpan karena kosong.</string>
 </resources>

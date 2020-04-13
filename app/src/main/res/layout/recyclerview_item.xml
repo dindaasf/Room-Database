@@ -12,4 +12,5 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:background="@android:color/holo_orange_light"/>
+
 </LinearLayout>

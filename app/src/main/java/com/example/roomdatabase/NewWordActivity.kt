@@ -7,12 +7,16 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 
 class NewWordActivity : AppCompatActivity() {
     private lateinit var editWordView: EditText
+    //private lateinit var editTanggalView: EditText
     public override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_word)
+
         editWordView = findViewById(R.id.edit_word)
         val button = findViewById<Button>(R.id.button_save)
         button.setOnClickListener {
